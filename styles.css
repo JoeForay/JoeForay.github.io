@@ -1,34 +1,40 @@
 body {
-    background:turquoise;
-    font-family:Arial, Helvetica, sans-serif;
+    background:pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assignments{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .assignment {
-    display:flex;
+    width: 30%;
     padding:10px;
     margin:10px;
-    margin-bottom: 30px;
     background:lightgray;
     border-radius: 5px;
-    box-shadow: 5px 8px blueviolet;
-    
+    box-shadow: 5px 8px lightseagreen;
 }
 
-.assingment img {
-    width:10px;
-    border: 2px solid gold;
+.assignment img {
+    width:200px;
+    border: 2px solid burlywood;
     margin-right: 20px;
     border-radius: 5px;
-}
-h1 {
-    color:rgb(139, 0, 120);
-    text-align: center;
-}
-a {
-    text-decoration:none;
-    color:
+    display: block;
+    margin: auto;
 }
 
-.assignment a:hover {
-    color:royalblue
+h1 {
+    color:darkorchid;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: darkcyan;
+}
+.assignment a:hover{
+    color:red;
 }
